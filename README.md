@@ -1,7 +1,7 @@
 # Lunch Time Python
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ssciwr/lunch-time-python/ci)](https://github.com/ssciwr/lunch-time-python/actions?query=workflow%3ACI)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ssciwr/lunch-time-python/CI)](https://github.com/ssciwr/lunch-time-python/actions/workflows/ci.yml)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ssciwr/lunch-time-python/main)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ssciwr/lunch-time-python/main)
 
