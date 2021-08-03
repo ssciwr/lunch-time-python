@@ -21,7 +21,7 @@ Here is a list of past sessions which you can reproduce in a Cloud environment b
 
 ## Registration
 
-Registration for Lunch Time Python sessions is not required. You can still register using [this form]() to
+Registration for Lunch Time Python sessions is not required. You can still register using [this form](https://ssc.iwr.uni-heidelberg.de/form/lunch-time-python-registration) to
 
 * give us a better idea about the potential audience and what libraries we should present.
 * make us send you a reminder the day before the session
