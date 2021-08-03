@@ -1,2 +1,4 @@
 nbval
 pre-commit
+pytest
+pytest-custom-exit-code
