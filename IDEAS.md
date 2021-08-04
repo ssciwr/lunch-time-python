@@ -15,7 +15,7 @@ this repository.
 * functools
 * itertools
 * logging
-* os.path
+* os.path & pathlib
 * typing
 
 ## Utility Libraries
