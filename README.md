@@ -30,4 +30,4 @@ If you want to suggest a library for presentation, you can also send an [email t
 
 ## Licensing
 
-The example codes in this repository are provided under the permissive MIT license giving you a lot of freedom to reuse and redistribute the code in your projects!
+The example codes are [available on GitHub](https://github.com/ssciwr/lunch-time-python) and are provided under the permissive MIT license giving you a lot of freedom to reuse and redistribute the code in your projects!
