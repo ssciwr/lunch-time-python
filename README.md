@@ -15,7 +15,7 @@ Python is a very popular - maybe even *the* most popular - programming language 
 
 These are the currently planned sessions of Lunch Time Python:
 
-* Session 1: t.b.d.
+* Session 1: October 29th 2021, 12 pm
 
 Here is a list of past sessions which you can reproduce in a Cloud environment by clicking the [Binder](https://mybinder.org) links below:
 
