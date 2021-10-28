@@ -19,6 +19,8 @@ These are the currently planned sessions of Lunch Time Python:
 
 Here is a list of past sessions which you can reproduce in a Cloud environment by clicking the [Binder](https://mybinder.org) links below:
 
+* [Session 1: requests](https://mybinder.org/v2/gh/ssciwr/lunch-time-python.git/HEAD?labpath=lunchtime1%2Flunchtime1.ipynb)
+
 ## Registration
 
 Registration for Lunch Time Python sessions is not required. You can still register using [this form](https://ssc.iwr.uni-heidelberg.de/form/lunch-time-python-registration) to
