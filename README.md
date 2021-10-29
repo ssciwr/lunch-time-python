@@ -15,11 +15,11 @@ Python is a very popular - maybe even *the* most popular - programming language 
 
 These are the currently planned sessions of Lunch Time Python:
 
-* [Session 1](lunchtime1/README.md): October 29th 2021, 12 pm: [requests](https://docs.python-requests.org/en/latest/).
+* [Session 2](lunchtime2/README.md): November 26th 2021, 12pm: [SymPy](https://www.sympy.org/).
 
 Here is a list of past sessions which you can reproduce in a Cloud environment by clicking the [Binder](https://mybinder.org) links below:
 
-* [Session 1: requests](https://mybinder.org/v2/gh/ssciwr/lunch-time-python.git/HEAD?labpath=lunchtime1%2Flunchtime1.ipynb)
+* [Session 1: October 29th 2021, 12 pm: requests](https://mybinder.org/v2/gh/ssciwr/lunch-time-python.git/HEAD?labpath=lunchtime1%2Flunchtime1.ipynb)
 
 ## Registration
 
