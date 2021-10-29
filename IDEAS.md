@@ -29,7 +29,7 @@ this repository.
 * pyaml
 * pyrsistent
 * pytest
-* requests
+* ~requests~
 
 ## Scientific Libraries
 
@@ -40,5 +40,5 @@ The risk with these is: They might be either already well-known or irrelevant to
 * pandas
 * scipy
 * scrapy
-* sympy
+* ~sympy~
 * tensorflow
