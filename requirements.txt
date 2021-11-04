@@ -4,3 +4,5 @@ pyyaml==5.4.1
 sympy==1.9
 symengine==0.8.1
 numpy==1.21.3
+jupyter==1.0.0
+rise==5.7.1
