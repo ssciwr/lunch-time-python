@@ -19,7 +19,7 @@ jobs:
             do
                 jupyter nbconvert $filename --to slides --execute || echo "nbconvert error"
             done
-      - run: mkdir dist && mv README.md lunchtime* dist/.
+      - run: mv README.md lunchtime* dist/.
       - uses: JamesIves/github-pages-deploy-action@4.1.5
         name: Deploy to gh-pages
         with:
