@@ -1,0 +1,28 @@
+name: Publish
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  publish:
+    name: Publish webpages and jupyter slides
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+      - run: pip install -r requirements.txt
+      - run: |
+            for filename in $(ls lunchtime*/*.ipynb)
+            do
+                jupyter nbconvert $filename --to slides --execute || echo "nbconvert error"
+            done
+      - run: mkdir dist && mv README.md lunchtime* dist/.
+      - uses: JamesIves/github-pages-deploy-action@4.1.5
+        name: Deploy to gh-pages
+        with:
+          branch: gh-pages
+          folder: dist
+          single-commit: true
