@@ -15,7 +15,7 @@ Python is a very popular - maybe even *the* most popular - programming language 
 
 These are the currently planned sessions of Lunch Time Python:
 
-* Session 3: January 28th 2021, 12pm: [Click](https://click.palletsprojects.com/en/8.0.x/) - Click is a Python package for creating beautiful command line interfaces in a composable way with as little code as necessary.
+* Session 3: January 28th 2022, 12pm: [Click](https://click.palletsprojects.com/en/8.0.x/) - Click is a Python package for creating beautiful command line interfaces in a composable way with as little code as necessary.
 
 Here is a list of past sessions which you can reproduce in a Cloud environment by clicking the [Binder](https://mybinder.org) links below:
 
