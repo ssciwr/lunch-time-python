@@ -11,7 +11,7 @@ import click
 @click.option(
     "--verbose/--no-verbose", type=bool, help="Whether to output intermediate results"
 )
-def main(verbose, input):
+def stats(verbose, input):
     """Read data and calculate useful statistics"""
     if verbose:
         print("Started the CLI script")
@@ -19,4 +19,4 @@ def main(verbose, input):
 
 
 if __name__ == "__main__":
-    main()
+    stats()
