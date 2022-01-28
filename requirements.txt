@@ -6,3 +6,4 @@ symengine==0.8.1
 numpy==1.21.3
 jupyter==1.0.0
 rise==5.7.1
+click==8.0.3
