@@ -15,7 +15,7 @@ Python is a very popular - maybe even *the* most popular - programming language 
 
 These are the currently planned sessions of Lunch Time Python:
 
-* Session 4 - t.b.a.
+* Session 4 - February 25th 2022, 12pm: Pytest - The pytest framework makes it easy to write small tests, yet scales to support complex functional testing for applications and libraries.
 
 Here is a list of past sessions which you can reproduce in a Cloud environment by clicking the [Binder](https://mybinder.org) links below:
 
