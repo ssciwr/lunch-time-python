@@ -21,15 +21,16 @@ this repository.
 ## Utility Libraries
 
 * beautifulsoup
-* click
+* ~click~
 * ipywidgets
 * jinja2
 * numba
 * peewee
 * pyaml
 * pyrsistent
-* pytest
+* ~pytest~
 * ~requests~
+* mypy
 
 ## Scientific Libraries
 
