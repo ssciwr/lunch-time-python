@@ -13,17 +13,19 @@ Python is a very popular - maybe even *the* most popular - programming language 
 
 ## Sessions
 
-These are the currently planned sessions of Lunch Time Python:
+Next installment of Lunch Time Python:
 
-* [Session 4](lunchtime4/README.md): February 25th 2022, 12pm: pytest - [slides](https://ssciwr.github.io/lunch-time-python/lunchtime4/lunchtime4.slides.html), [binder](https://mybinder.org/v2/gh/ssciwr/lunch-time-python.git/HEAD?labpath=lunchtime4%2Flunchtime4.ipynb), [noteboook](https://ssciwr.github.io/lunch-time-python/lunchtime4/lunchtime4.ipynb).
+* Session 4: pytest
+  - February 25th 2022, 12pm
+  - [slides](https://ssciwr.github.io/lunch-time-python/lunchtime4/lunchtime4.slides.html), [binder](https://mybinder.org/v2/gh/ssciwr/lunch-time-python.git/HEAD?labpath=lunchtime4%2Flunchtime4.ipynb), [noteboook](https://ssciwr.github.io/lunch-time-python/lunchtime4/lunchtime4.ipynb).
 
 Here is a list of past sessions which you can reproduce in a Cloud environment by clicking the [Binder](https://mybinder.org) links below:
 
-* [Session 3](lunchtime3/README.md): January 28th 2022, 12pm: Click - [slides](https://ssciwr.github.io/lunch-time-python/lunchtime3/lunchtime3.slides.html), [binder](https://mybinder.org/v2/gh/ssciwr/lunch-time-python.git/HEAD?labpath=lunchtime3%2Flunchtime3.ipynb), [noteboook](https://ssciwr.github.io/lunch-time-python/lunchtime3/lunchtime3.ipynb).
+* Click: [slides](https://ssciwr.github.io/lunch-time-python/lunchtime3/lunchtime3.slides.html), [binder](https://mybinder.org/v2/gh/ssciwr/lunch-time-python.git/HEAD?labpath=lunchtime3%2Flunchtime3.ipynb), [noteboook](https://ssciwr.github.io/lunch-time-python/lunchtime3/lunchtime3.ipynb) (Session 3, January 28th 2022, 12pm)
 
-* [Session 2](lunchtime2/README.md): November 26th 2021, 12pm: SymPy - [slides](https://ssciwr.github.io/lunch-time-python/lunchtime2/lunchtime2.slides.html), [binder](https://mybinder.org/v2/gh/ssciwr/lunch-time-python.git/HEAD?labpath=lunchtime2%2Flunchtime2.ipynb), [noteboook](https://ssciwr.github.io/lunch-time-python/lunchtime2/lunchtime2.ipynb).
+* SymPy: [slides](https://ssciwr.github.io/lunch-time-python/lunchtime2/lunchtime2.slides.html), [binder](https://mybinder.org/v2/gh/ssciwr/lunch-time-python.git/HEAD?labpath=lunchtime2%2Flunchtime2.ipynb), [noteboook](https://ssciwr.github.io/lunch-time-python/lunchtime2/lunchtime2.ipynb) (Session 2, November 26th 2021, 12pm)
 
-* [Session 1](lunchtime1/README.md): October 29th 2021, 12 pm: requests - [binder](https://mybinder.org/v2/gh/ssciwr/lunch-time-python.git/HEAD?labpath=lunchtime1%2Flunchtime1.ipynb), [noteboook](https://ssciwr.github.io/lunch-time-python/lunchtime1/lunchtime1.ipynb).
+* requests: [binder](https://mybinder.org/v2/gh/ssciwr/lunch-time-python.git/HEAD?labpath=lunchtime1%2Flunchtime1.ipynb), [noteboook](https://ssciwr.github.io/lunch-time-python/lunchtime1/lunchtime1.ipynb) (Session 1, October 29th 2021, 12 pm)
 
 ## Registration
 
