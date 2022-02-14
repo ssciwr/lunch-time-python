@@ -15,11 +15,11 @@ Python is a very popular - maybe even *the* most popular - programming language 
 
 These are the currently planned sessions of Lunch Time Python:
 
-* Session 4 - February 25th 2022, 12pm: Pytest - The pytest framework makes it easy to write small tests, yet scales to support complex functional testing for applications and libraries.
+* [Session 4](lunchtime4/README.md): February 25th 2022, 12pm: pytest - [slides](https://ssciwr.github.io/lunch-time-python/lunchtime4/lunchtime4.slides.html), [binder](https://mybinder.org/v2/gh/ssciwr/lunch-time-python.git/HEAD?labpath=lunchtime4%2Flunchtime4.ipynb), [noteboook](https://ssciwr.github.io/lunch-time-python/lunchtime4/lunchtime4.ipynb).
 
 Here is a list of past sessions which you can reproduce in a Cloud environment by clicking the [Binder](https://mybinder.org) links below:
 
-* [Session 3](lunchtime3/README.md): January 28th 2022, 12pm: Click- [slides](https://ssciwr.github.io/lunch-time-python/lunchtime3/lunchtime3.slides.html), [binder](https://mybinder.org/v2/gh/ssciwr/lunch-time-python.git/HEAD?labpath=lunchtime3%2Flunchtime3.ipynb), [noteboook](https://ssciwr.github.io/lunch-time-python/lunchtime3/lunchtime3.ipynb).
+* [Session 3](lunchtime3/README.md): January 28th 2022, 12pm: Click - [slides](https://ssciwr.github.io/lunch-time-python/lunchtime3/lunchtime3.slides.html), [binder](https://mybinder.org/v2/gh/ssciwr/lunch-time-python.git/HEAD?labpath=lunchtime3%2Flunchtime3.ipynb), [noteboook](https://ssciwr.github.io/lunch-time-python/lunchtime3/lunchtime3.ipynb).
 
 * [Session 2](lunchtime2/README.md): November 26th 2021, 12pm: SymPy - [slides](https://ssciwr.github.io/lunch-time-python/lunchtime2/lunchtime2.slides.html), [binder](https://mybinder.org/v2/gh/ssciwr/lunch-time-python.git/HEAD?labpath=lunchtime2%2Flunchtime2.ipynb), [noteboook](https://ssciwr.github.io/lunch-time-python/lunchtime2/lunchtime2.ipynb).
 
