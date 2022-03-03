@@ -13,13 +13,11 @@ Python is a very popular - maybe even *the* most popular - programming language 
 
 ## Sessions
 
-Next installment of Lunch Time Python:
-
-* Session 4: pytest
-  - February 25th 2022, 12pm
-  - [slides](https://ssciwr.github.io/lunch-time-python/lunchtime4/lunchtime4.slides.html), [binder](https://mybinder.org/v2/gh/ssciwr/lunch-time-python.git/HEAD?labpath=lunchtime4%2Flunchtime4.ipynb), [noteboook](https://ssciwr.github.io/lunch-time-python/lunchtime4/lunchtime4.ipynb).
+Next installment of Lunch Time Python: tba
 
 Here is a list of past sessions which you can reproduce in a Cloud environment by clicking the [Binder](https://mybinder.org) links below:
+
+* pytest: [slides](https://ssciwr.github.io/lunch-time-python/lunchtime4/lunchtime4.slides.html), [binder](https://mybinder.org/v2/gh/ssciwr/lunch-time-python.git/HEAD?labpath=lunchtime4%2Flunchtime4.ipynb), [noteboook](https://ssciwr.github.io/lunch-time-python/lunchtime4/lunchtime4.ipynb) (Session 4, February 25th 2022, 12pm)
 
 * Click: [slides](https://ssciwr.github.io/lunch-time-python/lunchtime3/lunchtime3.slides.html), [binder](https://mybinder.org/v2/gh/ssciwr/lunch-time-python.git/HEAD?labpath=lunchtime3%2Flunchtime3.ipynb), [noteboook](https://ssciwr.github.io/lunch-time-python/lunchtime3/lunchtime3.ipynb) (Session 3, January 28th 2022, 12pm)
 
@@ -34,7 +32,7 @@ Registration for Lunch Time Python sessions is not required. You can still regis
 * give us a better idea about the potential audience and what libraries we should present.
 * make us send you a reminder the day before the session
 
-If you want to suggest a library for presentation, you can also send an [email to the SSC developers](mailto:ssc@iwr.uni-heidelberg.de)
+Suggestions for libraries to present are very welcome as a [github issue](https://github.com/ssciwr/lunch-time-python/issues/new/choose) or as an [email to the SSC developers](mailto:ssc@iwr.uni-heidelberg.de)
 
 ## Licensing
 

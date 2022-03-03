@@ -7,20 +7,20 @@ on:
 jobs:
   publish:
     name: Publish webpages and jupyter slides
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - uses: actions/setup-python@v3
         with:
           python-version: 3.9
       - run: pip install -r requirements.txt
       - run: |
             for filename in $(ls lunchtime*/*.ipynb)
             do
-                jupyter nbconvert $filename --to slides --execute || echo "nbconvert error"
+                jupyter nbconvert $filename --to slides --execute || echo "nbconvert error ($filename)"
             done
       - run: mv README.md lunchtime* dist/.
-      - uses: JamesIves/github-pages-deploy-action@4.1.5
+      - uses: JamesIves/github-pages-deploy-action@4.2.5
         name: Deploy to gh-pages
         with:
           branch: gh-pages
