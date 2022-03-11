@@ -9,37 +9,38 @@ this repository.
 
 ## Standard Library
 
-* argparse
-* contextlib
-* csv
-* functools
-* itertools
-* logging
-* os.path & pathlib
-* typing
+* [ ] argparse
+* [ ] contextlib
+* [ ] csv
+* [ ] functools
+* [ ] itertools
+* [ ] logging
+* [ ] os.path & pathlib
+* [ ] typing
 
 ## Utility Libraries
 
-* beautifulsoup
-* ~click~
-* ipywidgets
-* jinja2
-* numba
-* peewee
-* pyaml
-* pyrsistent
-* ~pytest~
-* ~requests~
-* mypy
+* [ ] beautifulsoup
+* [x] click
+* [ ] ipywidgets
+* [ ] jinja2
+* [x] numba
+* [ ] peewee
+* [x] pillow
+* [ ] pyaml
+* [ ] pyrsistent
+* [x] pytest
+* [x] requests
+* [ ] mypy
 
 ## Scientific Libraries
 
 The risk with these is: They might be either already well-known or irrelevant to people depending on the domain they are working in. Another issue is that many of these are huge frameworks that can only presented very minimally in the given time frame.
 
-* matplotlib
-* numpy
-* pandas
-* scipy
-* scrapy
-* ~sympy~
-* tensorflow
+* [ ] matplotlib
+* [ ] numpy
+* [ ] pandas
+* [ ] scipy
+* [ ] scrapy
+* [x] sympy
+* [ ] tensorflow

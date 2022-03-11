@@ -12,7 +12,7 @@ jobs:
     name: Publish webpages and jupyter slides
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - uses: actions/setup-python@v3
         with:
           python-version: 3.9
@@ -20,7 +20,9 @@ jobs:
       - run: |
             for filename in $(ls lunchtime*/*.ipynb)
             do
-                jupyter nbconvert $filename --to slides --execute || echo "nbconvert error ($filename)"
+                if [ "$filename" != "lunchtime1/lunchtime1.ipynb" ]; then
+                    python -m jupyter nbconvert $filename --to slides --execute
+                fi
             done
       - run: mv README.md lunchtime* dist/.
       - uses: JamesIves/github-pages-deploy-action@v4.2.5
