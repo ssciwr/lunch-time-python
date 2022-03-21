@@ -9,3 +9,4 @@ rise==5.7.1
 click==8.0.3
 pytest==7.0.1
 ipytest==0.11.0
+pillow==9.0.1

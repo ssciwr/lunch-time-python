@@ -13,7 +13,9 @@ Python is a very popular - maybe even *the* most popular - programming language 
 
 ## Sessions
 
-Next installment of Lunch Time Python: tba
+Next installment of Lunch Time Python:
+
+* Friday, March 25th 2022 12pm. [pillow](https://pillow.readthedocs.io)
 
 Here is a list of past sessions which you can reproduce in a Cloud environment by clicking the [Binder](https://mybinder.org) links below:
 
