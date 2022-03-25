@@ -13,11 +13,11 @@ Python is a very popular - maybe even *the* most popular - programming language 
 
 ## Sessions
 
-Next installment of Lunch Time Python:
-
-* Friday, March 25th 2022 12pm. [pillow](https://pillow.readthedocs.io)
+Next installment of Lunch Time Python: tba
 
 Here is a list of past sessions which you can reproduce in a Cloud environment by clicking the [Binder](https://mybinder.org) links below:
+
+* pillow: [slides](https://ssciwr.github.io/lunch-time-python/lunchtime5/lunchtime5.slides.html), [binder](https://mybinder.org/v2/gh/ssciwr/lunch-time-python.git/HEAD?labpath=lunchtime5%2Flunchtime5.ipynb), [noteboook](https://ssciwr.github.io/lunch-time-python/lunchtime5/lunchtime5.ipynb) (Session 5, March 25th 2022, 12pm)
 
 * pytest: [slides](https://ssciwr.github.io/lunch-time-python/lunchtime4/lunchtime4.slides.html), [binder](https://mybinder.org/v2/gh/ssciwr/lunch-time-python.git/HEAD?labpath=lunchtime4%2Flunchtime4.ipynb), [noteboook](https://ssciwr.github.io/lunch-time-python/lunchtime4/lunchtime4.ipynb) (Session 4, February 25th 2022, 12pm)
 
