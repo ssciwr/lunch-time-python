@@ -21,7 +21,7 @@ jobs:
             for filename in $(ls lunchtime*/*.ipynb)
             do
                 if [ "$filename" != "lunchtime1/lunchtime1.ipynb" ]; then
-                    python -m jupyter nbconvert $filename --to slides --execute
+                    python -m jupyter nbconvert $filename --to slides --execute --ExecutePreprocessor.kernel_name=python
                 fi
             done
       - run: mv README.md lunchtime* dist/.
