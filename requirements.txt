@@ -3,7 +3,7 @@ bs4==0.0.1
 pyyaml==6.0
 sympy==1.10.1
 symengine==0.8.1
-numpy==1.21.6
+numpy==1.23.0
 jupyter==1.0.0
 rise==5.7.1
 click==8.0.3
