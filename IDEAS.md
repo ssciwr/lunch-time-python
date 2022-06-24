@@ -21,9 +21,12 @@ this repository.
 ## Utility Libraries
 
 * [ ] beautifulsoup
+* [ ] cachetools
 * [x] click
+* [ ] flask
 * [ ] ipywidgets
 * [ ] jinja2
+* [ ] mypy
 * [x] numba
 * [ ] peewee
 * [x] pillow
@@ -31,7 +34,6 @@ this repository.
 * [ ] pyrsistent
 * [x] pytest
 * [x] requests
-* [ ] mypy
 
 ## Scientific Libraries
 
@@ -44,3 +46,4 @@ The risk with these is: They might be either already well-known or irrelevant to
 * [ ] scrapy
 * [x] sympy
 * [ ] tensorflow
+* [ ] transformers
