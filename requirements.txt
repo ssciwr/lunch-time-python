@@ -8,7 +8,7 @@ jupyter==1.0.0
 rise==5.7.1
 click==8.0.3
 pytest==7.0.1
-ipytest==0.11.0
+ipytest==0.12.0
 pillow==9.1.1
 jinja2==3.0.3
 numba==0.55.2
