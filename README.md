@@ -13,13 +13,11 @@ Python is a very popular - maybe even *the* most popular - programming language 
 
 ## Sessions
 
-Next installment of Lunch Time Python:
-
-* matplotlib: [slides](https://ssciwr.github.io/lunch-time-python/lunchtime7/lunchtime7.slides.html), [binder](https://mybinder.org/v2/gh/ssciwr/lunch-time-python.git/HEAD?labpath=lunchtime7%2Flunchtime7.ipynb), [notebook](https://ssciwr.github.io/lunch-time-python/lunchtime7/lunchtime7.ipynb) (Session 7, June 24th 2022, 12pm)
+Next installment of Lunch Time Python: tba
 
 Here is a list of past sessions which you can reproduce in a Cloud environment by clicking the [Binder](https://mybinder.org) links below:
 
-* ipywidgets: Session 8, scheduled for July 29th 12pm
+* ipywidgets: [slides](https://ssciwr.github.io/lunch-time-python/lunchtime8/lunchtime8.slides.html), [binder](https://mybinder.org/v2/gh/ssciwr/lunch-time-python.git/HEAD?labpath=lunchtime8%2Flunchtime8.ipynb), [notebook](https://ssciwr.github.io/lunch-time-python/lunchtime8/lunchtime8.ipynb) (Session 8, July 29th 2022, 12pm)
 
 * matplotlib: [slides](https://ssciwr.github.io/lunch-time-python/lunchtime7/lunchtime7.slides.html), [binder](https://mybinder.org/v2/gh/ssciwr/lunch-time-python.git/HEAD?labpath=lunchtime7%2Flunchtime7.ipynb), [notebook](https://ssciwr.github.io/lunch-time-python/lunchtime7/lunchtime7.ipynb) (Session 7, June 24th 2022, 12pm)
 
