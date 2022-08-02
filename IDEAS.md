@@ -24,13 +24,15 @@ this repository.
 * [ ] cachetools
 * [x] click
 * [ ] flask
-* [ ] ipywidgets
+* [x] ipywidgets
 * [ ] jinja2
 * [ ] mypy
 * [x] numba
 * [ ] peewee
 * [x] pillow
+* [ ] pre-commit
 * [ ] pyaml
+* [ ] pydantic
 * [ ] pyrsistent
 * [x] pytest
 * [x] requests
