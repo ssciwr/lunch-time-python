@@ -41,9 +41,11 @@ this repository.
 
 The risk with these is: They might be either already well-known or irrelevant to people depending on the domain they are working in. Another issue is that many of these are huge frameworks that can only presented very minimally in the given time frame.
 
+* [ ] dask
 * [x] matplotlib
 * [ ] numpy
 * [ ] pandas
+* [ ] plotly
 * [ ] scipy
 * [ ] scrapy
 * [x] sympy
