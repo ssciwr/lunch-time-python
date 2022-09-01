@@ -256,7 +256,7 @@ stack-data==0.3.0
     # via ipython
 symengine==0.9.2
     # via -r requirements.in
-sympy==1.10.1
+sympy==1.11.1
     # via -r requirements.in
 terminado==0.15.0
     # via notebook
