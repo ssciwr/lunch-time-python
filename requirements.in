@@ -17,4 +17,4 @@ pybind11
 matplotlib
 git+https://github.com/aldanor/ipybind.git
 git+https://github.com/mgaitan/fortran_magic.git
-ipywidgets>=8.0.0rc1
+ipywidgets
