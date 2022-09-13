@@ -16,7 +16,7 @@ this repository.
 * [ ] itertools
 * [ ] logging
 * [ ] os.path & pathlib
-* [ ] typing
+* [x] typing
 
 ## Utility Libraries
 
@@ -26,7 +26,7 @@ this repository.
 * [ ] flask
 * [x] ipywidgets
 * [ ] jinja2
-* [ ] mypy
+* [x] mypy
 * [x] numba
 * [ ] peewee
 * [x] pillow

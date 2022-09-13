@@ -18,3 +18,5 @@ matplotlib
 git+https://github.com/aldanor/ipybind.git
 git+https://github.com/mgaitan/fortran_magic.git
 ipywidgets
+mypy
+nb_mypy
