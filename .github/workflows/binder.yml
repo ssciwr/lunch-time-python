@@ -4,6 +4,10 @@ on:
     branches:
       - main
 
+concurrency:
+  group: Create-MyBinderOrg-Cache-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   Create-MyBinderOrg-Cache:
     runs-on: ubuntu-latest
