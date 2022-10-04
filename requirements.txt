@@ -172,7 +172,7 @@ notebook==6.4.12
     #   rise
 numba==0.56.2
     # via -r requirements.in
-numpy==1.23.2
+numpy==1.23.3
     # via
     #   -r requirements.in
     #   contourpy
