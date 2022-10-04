@@ -147,7 +147,7 @@ mypy==0.981
     #   nb-mypy
 mypy-extensions==0.4.3
     # via mypy
-nb-mypy==1.0.3
+nb-mypy==1.0.4
     # via -r requirements.in
 nbclient==0.6.7
     # via nbconvert
