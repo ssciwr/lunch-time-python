@@ -141,7 +141,7 @@ mistune==2.0.4
     # via nbconvert
 mpmath==1.2.1
     # via sympy
-mypy==0.971
+mypy==0.981
     # via
     #   -r requirements.in
     #   nb-mypy
