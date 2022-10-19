@@ -43,6 +43,7 @@ The risk with these is: They might be either already well-known or irrelevant to
 
 * [ ] dask
 * [x] matplotlib
+* [ ] napari
 * [ ] numpy
 * [ ] pandas
 * [ ] plotly
