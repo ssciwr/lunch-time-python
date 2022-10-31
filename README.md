@@ -17,6 +17,8 @@ Next installment of Lunch Time Python: tba
 
 Here is a list of past sessions which you can reproduce in a Cloud environment by clicking the [Binder](https://mybinder.org) or [Colab](https://colab.research.google.com/) (requires a Google account) links below:
 
+* pytorch: [slides](https://ssciwr.github.io/lunch-time-python/lunchtime10/lunchtime10.slides.html), [binder](https://mybinder.org/v2/gh/ssciwr/lunch-time-python.git/HEAD?labpath=lunchtime10%2Flunchtime10.ipynb), [colab](https://colab.research.google.com/github/ssciwr/lunch-time-python/blob/main/lunchtime10/lunchtime10.ipynb), [notebook](https://ssciwr.github.io/lunch-time-python/lunchtime10/lunchtime10.ipynb) (Session 10, October 30th 2022, 12pm)
+
 * mypy: [slides](https://ssciwr.github.io/lunch-time-python/lunchtime9/lunchtime9.slides.html), [binder](https://mybinder.org/v2/gh/ssciwr/lunch-time-python.git/HEAD?labpath=lunchtime9%2Flunchtime9.ipynb), [colab](https://colab.research.google.com/github/ssciwr/lunch-time-python/blob/main/lunchtime9/lunchtime9.ipynb), [notebook](https://ssciwr.github.io/lunch-time-python/lunchtime9/lunchtime9.ipynb) (Session 9, September 30th 2022, 12pm)
 
 * ipywidgets: [slides](https://ssciwr.github.io/lunch-time-python/lunchtime8/lunchtime8.slides.html), [binder](https://mybinder.org/v2/gh/ssciwr/lunch-time-python.git/HEAD?labpath=lunchtime8%2Flunchtime8.ipynb), [colab](https://colab.research.google.com/github/ssciwr/lunch-time-python/blob/main/lunchtime8/lunchtime8.ipynb), [notebook](https://ssciwr.github.io/lunch-time-python/lunchtime8/lunchtime8.ipynb) (Session 8, July 29th 2022, 12pm)
