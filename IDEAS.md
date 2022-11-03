@@ -51,5 +51,7 @@ The risk with these is: They might be either already well-known or irrelevant to
 * [ ] scrapy
 * [x] sympy
 * [ ] tensorflow
+* [x] pytorch
 * [ ] transformers
 * [ ] xarray
+* [ ] casadi
