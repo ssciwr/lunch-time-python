@@ -22,3 +22,4 @@ mypy
 nb_mypy
 torch
 torchvision
+spacy
