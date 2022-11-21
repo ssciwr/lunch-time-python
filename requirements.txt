@@ -62,6 +62,8 @@ decorator==5.1.1
     # via ipython
 defusedxml==0.7.1
     # via nbconvert
+en_core_web_md @ https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.4.0/en_core_web_md-3.4.0-py3-none-any.whl
+    # via -r requirements.in
 entrypoints==0.4
     # via jupyter-client
 executing==1.0.0
@@ -323,7 +325,9 @@ smart-open==5.2.1
 soupsieve==2.3.2.post1
     # via beautifulsoup4
 spacy==3.4.3
-    # via -r requirements.in
+    # via
+    #   -r requirements.in
+    #   en-core-web-md
 spacy-legacy==3.0.10
     # via spacy
 spacy-loggers==1.0.3
