@@ -64,24 +64,16 @@ defusedxml==0.7.1
     # via nbconvert
 en_core_web_md @ https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.4.0/en_core_web_md-3.4.0-py3-none-any.whl
     # via -r requirements.in
-en_core_web_trf @ https://github.com/explosion/spacy-models/releases/download/en_core_web_trf-3.4.0/en_core_web_trf-3.4.0-py3-none-any.whl
-    # via -r requirements.in
 entrypoints==0.4
     # via jupyter-client
 executing==1.0.0
     # via stack-data
 fastjsonschema==2.16.1
     # via nbformat
-filelock==3.8.0
-    # via
-    #   huggingface-hub
-    #   transformers
 fonttools==4.37.1
     # via matplotlib
 fortran-magic @ git+https://github.com/mgaitan/fortran_magic.git
     # via -r requirements.in
-huggingface-hub==0.11.0
-    # via transformers
 idna==3.3
     # via requests
 iniconfig==1.1.1
@@ -215,7 +207,6 @@ numpy==1.23.3
     #   spacy
     #   thinc
     #   torchvision
-    #   transformers
 nvidia-cublas-cu11==11.10.3.66
     # via
     #   nvidia-cudnn-cu11
@@ -228,7 +219,6 @@ nvidia-cudnn-cu11==8.5.0.96
     # via torch
 packaging==21.3
     # via
-    #   huggingface-hub
     #   ipykernel
     #   ipytest
     #   matplotlib
@@ -236,7 +226,6 @@ packaging==21.3
     #   pytest
     #   qtpy
     #   spacy
-    #   transformers
 pandocfilters==1.5.0
     # via nbconvert
 parso==0.8.3
@@ -306,10 +295,7 @@ python-dateutil==2.8.2
     #   jupyter-client
     #   matplotlib
 pyyaml==6.0
-    # via
-    #   -r requirements.in
-    #   huggingface-hub
-    #   transformers
+    # via -r requirements.in
 pyzmq==23.2.1
     # via
     #   ipykernel
@@ -320,15 +306,11 @@ qtconsole==5.3.2
     # via jupyter
 qtpy==2.2.0
     # via qtconsole
-regex==2022.10.31
-    # via transformers
 requests==2.28.1
     # via
     #   -r requirements.in
-    #   huggingface-hub
     #   spacy
     #   torchvision
-    #   transformers
 rise==5.7.1
     # via -r requirements.in
 send2trash==1.8.0
@@ -346,23 +328,14 @@ spacy==3.4.3
     # via
     #   -r requirements.in
     #   en-core-web-md
-    #   en-core-web-trf
-    #   spacy-transformers
-spacy-alignments==0.8.6
-    # via spacy-transformers
 spacy-legacy==3.0.10
     # via spacy
 spacy-loggers==1.0.3
     # via spacy
-spacy-transformers==1.1.8
-    # via
-    #   -r requirements.in
-    #   en-core-web-trf
 srsly==2.4.5
     # via
     #   confection
     #   spacy
-    #   spacy-transformers
     #   thinc
 stack-data==0.5.0
     # via ipython
@@ -376,8 +349,6 @@ thinc==8.1.5
     # via spacy
 tinycss2==1.1.1
     # via nbconvert
-tokenizers==0.12.1
-    # via transformers
 tomli==2.0.1
     # via
     #   mypy
@@ -385,7 +356,6 @@ tomli==2.0.1
 torch==1.13.0
     # via
     #   -r requirements.in
-    #   spacy-transformers
     #   torchvision
 torchvision==0.14.0
     # via -r requirements.in
@@ -396,10 +366,7 @@ tornado==6.2
     #   notebook
     #   terminado
 tqdm==4.64.1
-    # via
-    #   huggingface-hub
-    #   spacy
-    #   transformers
+    # via spacy
 traitlets==5.3.0
     # via
     #   ipykernel
@@ -413,15 +380,12 @@ traitlets==5.3.0
     #   nbformat
     #   notebook
     #   qtconsole
-transformers==4.21.3
-    # via spacy-transformers
 typer==0.7.0
     # via
     #   pathy
     #   spacy
 typing-extensions==4.3.0
     # via
-    #   huggingface-hub
     #   mypy
     #   pydantic
     #   torch
