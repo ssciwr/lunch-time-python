@@ -13,7 +13,7 @@ Python is a very popular - maybe even *the* most popular - programming language 
 
 ## Sessions
 
-Next installment of Lunch Time Python: tba
+Next installment of Lunch Time Python: spaCy - 11:30am November 25th 2022
 
 Here is a list of past sessions which you can reproduce in a Cloud environment by clicking the [Binder](https://mybinder.org) or [Colab](https://colab.research.google.com/) (requires a Google account) links below:
 
