@@ -15,6 +15,8 @@ Python is a very popular - maybe even *the* most popular - programming language 
 
 Next installment of Lunch Time Python: spaCy - 11:30am November 25th 2022
 
+* spaCy: [slides](https://ssciwr.github.io/lunch-time-python/lunchtime10/lunchtime11.slides.html), [binder](https://mybinder.org/v2/gh/ssciwr/lunch-time-python.git/HEAD?labpath=lunchtime11%2Flunchtime11.ipynb), [colab](https://colab.research.google.com/github/ssciwr/lunch-time-python/blob/main/lunchtime11/lunchtime11.ipynb), [notebook](https://ssciwr.github.io/lunch-time-python/lunchtime11/lunchtime11.ipynb) (Session 11, November 25th 2022, 11:30am)
+
 Here is a list of past sessions which you can reproduce in a Cloud environment by clicking the [Binder](https://mybinder.org) or [Colab](https://colab.research.google.com/) (requires a Google account) links below:
 
 * pytorch: [slides](https://ssciwr.github.io/lunch-time-python/lunchtime10/lunchtime10.slides.html), [binder](https://mybinder.org/v2/gh/ssciwr/lunch-time-python.git/HEAD?labpath=lunchtime10%2Flunchtime10.ipynb), [colab](https://colab.research.google.com/github/ssciwr/lunch-time-python/blob/main/lunchtime10/lunchtime10.ipynb), [notebook](https://ssciwr.github.io/lunch-time-python/lunchtime10/lunchtime10.ipynb) (Session 10, October 30th 2022, 12pm)
