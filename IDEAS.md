@@ -20,6 +20,7 @@ this repository.
 
 ## Utility Libraries
 
+* [ ] awkward
 * [ ] beautifulsoup
 * [ ] cachetools
 * [x] click
