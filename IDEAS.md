@@ -28,6 +28,7 @@ this repository.
 * [ ] flask
 * [x] ipywidgets
 * [ ] jinja2
+* [ ] hypothesis
 * [x] mypy
 * [x] numba
 * [ ] peewee
