@@ -22,6 +22,7 @@ this repository.
 
 * [ ] awkward
 * [ ] beautifulsoup
+* [ ] bidict
 * [ ] cachetools
 * [x] click
 * [ ] flask
