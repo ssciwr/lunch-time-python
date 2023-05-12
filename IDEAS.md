@@ -20,6 +20,7 @@ this repository.
 
 ## Utility Libraries
 
+* [ ] atheris
 * [ ] awkward
 * [ ] beautifulsoup
 * [ ] bidict
