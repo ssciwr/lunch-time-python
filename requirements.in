@@ -12,6 +12,7 @@ ipytest
 pillow
 jinja2
 numba
+scipy
 cython
 pybind11
 matplotlib
