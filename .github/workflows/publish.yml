@@ -29,7 +29,7 @@ jobs:
                 fi
             done
       - run: mv README.md lunchtime* dist/.
-      - uses: JamesIves/github-pages-deploy-action@v4.4.1
+      - uses: JamesIves/github-pages-deploy-action@v4.4.2
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         name: Deploy to gh-pages
         with:
