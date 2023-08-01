@@ -5,7 +5,9 @@
 #    pip-compile
 #
 ansi2html==1.8.0
-    # via jupyter-dash
+    # via
+    #   dash
+    #   jupyter-dash
 anyio==3.6.2
     # via jupyter-server
 argon2-cffi==21.3.0
@@ -31,8 +33,6 @@ beautifulsoup4==4.12.2
     #   nbconvert
 bleach==6.0.0
     # via nbconvert
-blinker==1.6.2
-    # via flask
 blis==0.7.9
     # via thinc
 bs4==0.0.1
@@ -72,7 +72,7 @@ cymem==2.0.7
     #   thinc
 cython==0.29.34
     # via -r requirements.in
-dash==2.9.3
+dash==2.11.1
     # via
     #   -r requirements.in
     #   dash-extensions
@@ -105,7 +105,7 @@ filelock==3.12.0
     # via
     #   torch
     #   triton
-flask==2.3.2
+flask==2.2.5
     # via
     #   dash
     #   flask-caching
@@ -277,6 +277,7 @@ nbformat==5.8.0
     #   notebook
 nest-asyncio==1.5.6
     # via
+    #   dash
     #   ipykernel
     #   jupyter-dash
     #   nbclassic
@@ -439,11 +440,14 @@ qtpy==2.3.1
 requests==2.31.0
     # via
     #   -r requirements.in
+    #   dash
     #   jupyter-dash
     #   spacy
     #   torchvision
 retrying==1.3.4
-    # via jupyter-dash
+    # via
+    #   dash
+    #   jupyter-dash
 rfc3339-validator==0.1.4
     # via
     #   jsonschema
@@ -555,6 +559,7 @@ typer==0.7.0
     #   spacy
 typing-extensions==4.6.1
     # via
+    #   dash
     #   mypy
     #   pydantic
     #   torch
@@ -578,8 +583,10 @@ webencodings==0.5.1
     #   tinycss2
 websocket-client==1.5.2
     # via jupyter-server
-werkzeug==2.3.4
-    # via flask
+werkzeug==2.2.3
+    # via
+    #   dash
+    #   flask
 wheel==0.40.0
     # via
     #   nvidia-cublas-cu11
