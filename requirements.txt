@@ -58,7 +58,9 @@ click==8.1.3
 cmake==3.26.3
     # via triton
 comm==0.1.3
-    # via ipykernel
+    # via
+    #   ipykernel
+    #   ipywidgets
 confection==0.0.4
     # via thinc
 contourpy==1.0.7
@@ -129,7 +131,6 @@ ipybind @ git+https://github.com/aldanor/ipybind.git
     # via -r requirements.in
 ipykernel==6.23.1
     # via
-    #   ipywidgets
     #   jupyter
     #   jupyter-console
     #   jupyter-dash
@@ -153,7 +154,7 @@ ipython-genutils==0.2.0
     #   nbclassic
     #   notebook
     #   qtconsole
-ipywidgets==8.0.6
+ipywidgets==8.1.0
     # via
     #   -r requirements.in
     #   jupyter
