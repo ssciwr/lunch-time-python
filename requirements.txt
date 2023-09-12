@@ -81,12 +81,14 @@ dash==2.11.1
     #   jupyter-dash
 dash-core-components==2.0.0
     # via dash
-dash-extensions==1.0.1
+dash-extensions==1.0.3
     # via -r requirements.in
 dash-html-components==2.0.0
     # via dash
 dash-table==5.0.0
     # via dash
+dataclass-wizard==0.22.2
+    # via dash-extensions
 debugpy==1.6.7
     # via ipykernel
 decorator==5.1.1
