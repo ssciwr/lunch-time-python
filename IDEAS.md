@@ -26,6 +26,7 @@ this repository.
 * [ ] bidict
 * [ ] cachetools
 * [x] click
+* [x] dash
 * [ ] flask
 * [x] ipywidgets
 * [ ] jinja2
@@ -45,7 +46,9 @@ this repository.
 
 The risk with these is: They might be either already well-known or irrelevant to people depending on the domain they are working in. Another issue is that many of these are huge frameworks that can only presented very minimally in the given time frame.
 
+* [ ] casadi
 * [ ] dask
+* [ ] jax
 * [x] matplotlib
 * [ ] napari
 * [ ] numpy
@@ -58,4 +61,3 @@ The risk with these is: They might be either already well-known or irrelevant to
 * [x] pytorch
 * [ ] transformers
 * [ ] xarray
-* [ ] casadi
