@@ -28,9 +28,9 @@ this repository.
 * [x] click
 * [x] dash
 * [ ] flask
+* [ ] hypothesis
 * [x] ipywidgets
 * [ ] jinja2
-* [ ] hypothesis
 * [x] mypy
 * [x] numba
 * [ ] peewee
@@ -54,10 +54,10 @@ The risk with these is: They might be either already well-known or irrelevant to
 * [ ] numpy
 * [ ] pandas
 * [ ] plotly
+* [x] pytorch
 * [ ] scipy
 * [ ] scrapy
 * [x] sympy
 * [ ] tensorflow
-* [x] pytorch
 * [ ] transformers
 * [ ] xarray
