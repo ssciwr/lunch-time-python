@@ -25,7 +25,9 @@ jobs:
             for filename in $(ls lunchtime*/*.ipynb)
             do
                 if [ "$filename" != "lunchtime1/lunchtime1.ipynb" ]; then
-                    python -m jupyter nbconvert $filename --to slides --execute --ExecutePreprocessor.kernel_name=python
+                    # if conversion takes more than 90s, kill it and try again
+                    # workaround for ipywidgets conversion occasionally hanging
+                    until timeout 90s python -m jupyter nbconvert $filename --to slides --execute --ExecutePreprocessor.kernel_name=python; do sleep 1; done
                 fi
             done
       - run: mv README.md lunchtime* dist/.
