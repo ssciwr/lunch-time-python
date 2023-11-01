@@ -97,7 +97,7 @@ defusedxml==0.7.1
     # via nbconvert
 editorconfig==0.12.3
     # via jsbeautifier
-en_core_web_md @ https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.4.0/en_core_web_md-3.4.0-py3-none-any.whl
+en-core-web-md @ https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.4.0/en_core_web_md-3.4.0-py3-none-any.whl
     # via -r requirements.in
 exceptiongroup==1.1.1
     # via pytest
@@ -357,7 +357,7 @@ pexpect==4.8.0
     # via ipython
 pickleshare==0.7.5
     # via ipython
-pillow==9.5.0
+pillow==10.1.0
     # via
     #   -r requirements.in
     #   matplotlib
@@ -416,6 +416,7 @@ pytest==7.3.1
     #   ipytest
 python-dateutil==2.8.2
     # via
+    #   arrow
     #   jupyter-client
     #   matplotlib
     #   pandas
