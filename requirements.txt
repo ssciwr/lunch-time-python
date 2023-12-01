@@ -253,7 +253,7 @@ murmurhash==1.0.9
     #   preshed
     #   spacy
     #   thinc
-mypy==1.4.1
+mypy==1.7.1
     # via
     #   -r requirements.in
     #   nb-mypy
