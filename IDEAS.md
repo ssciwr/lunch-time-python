@@ -31,7 +31,9 @@ this repository.
 * [ ] hypothesis
 * [x] ipywidgets
 * [ ] jinja2
+* [ ] memray
 * [x] mypy
+* [ ] nanobind
 * [x] numba
 * [ ] peewee
 * [x] pillow
