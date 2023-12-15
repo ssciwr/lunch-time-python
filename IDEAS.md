@@ -35,6 +35,7 @@ this repository.
 * [x] mypy
 * [ ] nanobind
 * [x] numba
+* [ ] pandera
 * [ ] peewee
 * [x] pillow
 * [ ] pre-commit
