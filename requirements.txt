@@ -81,7 +81,7 @@ dash==2.11.1
     #   jupyter-dash
 dash-core-components==2.0.0
     # via dash
-dash-extensions==1.0.3
+dash-extensions==1.0.7
     # via -r requirements.in
 dash-html-components==2.0.0
     # via dash
