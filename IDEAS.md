@@ -44,6 +44,8 @@ this repository.
 * [ ] pyrsistent
 * [x] pytest
 * [x] requests
+* [ ] rich
+* [ ] textual
 
 ## Scientific Libraries
 
