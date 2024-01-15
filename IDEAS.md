@@ -42,6 +42,7 @@ this repository.
 * [ ] pyaml
 * [ ] pydantic
 * [ ] pyrsistent
+* [ ] pyscript
 * [x] pytest
 * [x] requests
 * [ ] rich
