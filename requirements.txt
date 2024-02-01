@@ -35,7 +35,7 @@ bleach==6.0.0
     # via nbconvert
 blis==0.7.9
     # via thinc
-bs4==0.0.1
+bs4==0.0.2
     # via -r requirements.in
 cachelib==0.9.0
     # via flask-caching
