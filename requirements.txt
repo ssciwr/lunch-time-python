@@ -5,9 +5,7 @@
 #    pip-compile
 #
 ansi2html==1.8.0
-    # via
-    #   dash
-    #   jupyter-dash
+    # via jupyter-dash
 anyio==3.6.2
     # via jupyter-server
 argon2-cffi==21.3.0
@@ -74,14 +72,14 @@ cymem==2.0.7
     #   thinc
 cython==3.0.8
     # via -r requirements.in
-dash==2.11.1
+dash==2.15.0
     # via
     #   -r requirements.in
     #   dash-extensions
     #   jupyter-dash
 dash-core-components==2.0.0
     # via dash
-dash-extensions==1.0.7
+dash-extensions==1.0.12
     # via -r requirements.in
 dash-html-components==2.0.0
     # via dash
@@ -114,7 +112,7 @@ flask==2.2.5
     #   dash
     #   flask-caching
     #   jupyter-dash
-flask-caching==2.0.2
+flask-caching==2.1.0
     # via dash-extensions
 fonttools==4.39.4
     # via matplotlib
@@ -127,6 +125,8 @@ idna==3.4
     #   anyio
     #   jsonschema
     #   requests
+importlib-metadata==7.0.1
+    # via dash
 iniconfig==2.0.0
     # via pytest
 ipybind @ git+https://github.com/aldanor/ipybind.git
@@ -601,6 +601,8 @@ wheel==0.40.0
     #   nvidia-nvtx-cu11
 widgetsnbextension==4.0.10
     # via ipywidgets
+zipp==3.17.0
+    # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
