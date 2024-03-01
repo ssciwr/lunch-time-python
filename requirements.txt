@@ -345,7 +345,7 @@ packaging==23.1
     #   qtpy
     #   spacy
     #   thinc
-pandas==2.0.1
+pandas==2.2.1
     # via -r requirements.in
 pandocfilters==1.5.0
     # via nbconvert
