@@ -236,7 +236,7 @@ markupsafe==2.1.2
     #   jinja2
     #   nbconvert
     #   werkzeug
-matplotlib==3.8.2
+matplotlib==3.8.3
     # via -r requirements.in
 matplotlib-inline==0.1.6
     # via
