@@ -139,7 +139,7 @@ ipykernel==6.23.1
     #   nbclassic
     #   notebook
     #   qtconsole
-ipytest==0.13.3
+ipytest==0.14.0
     # via -r requirements.in
 ipython==8.13.2
     # via
