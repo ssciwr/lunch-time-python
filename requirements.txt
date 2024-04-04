@@ -229,7 +229,7 @@ langcodes==3.3.0
     # via spacy
 lit==16.0.5
     # via triton
-llvmlite==0.40.0
+llvmlite==0.42.0
     # via numba
 markupsafe==2.1.2
     # via
@@ -293,7 +293,7 @@ notebook==6.5.4
     #   rise
 notebook-shim==0.2.3
     # via nbclassic
-numba==0.57.0
+numba==0.59.1
     # via -r requirements.in
 numpy==1.24.3
     # via
