@@ -56,6 +56,7 @@ The risk with these is: They might be either already well-known or irrelevant to
 * [ ] dask
 * [ ] jax
 * [x] matplotlib
+* [ ] modin
 * [ ] napari
 * [ ] numpy
 * [ ] pandas
@@ -66,4 +67,5 @@ The risk with these is: They might be either already well-known or irrelevant to
 * [x] sympy
 * [ ] tensorflow
 * [ ] transformers
+* [ ] vaex
 * [ ] xarray
