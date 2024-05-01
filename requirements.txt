@@ -295,7 +295,7 @@ notebook-shim==0.2.3
     # via nbclassic
 numba==0.59.1
     # via -r requirements.in
-numpy==1.24.3
+numpy==1.26.4
     # via
     #   -r requirements.in
     #   blis
