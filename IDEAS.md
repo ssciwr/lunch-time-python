@@ -27,6 +27,7 @@ this repository.
 * [ ] cachetools
 * [x] click
 * [x] dash
+* [ ] fastapi
 * [ ] flask
 * [ ] hypothesis
 * [x] ipywidgets
@@ -40,7 +41,7 @@ this repository.
 * [x] pillow
 * [ ] pre-commit
 * [ ] pyaml
-* [ ] pydantic
+* [x] pydantic
 * [ ] pyrsistent
 * [ ] pyscript
 * [x] pytest
