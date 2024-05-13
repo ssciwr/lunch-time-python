@@ -48,6 +48,7 @@ this repository.
 * [x] requests
 * [ ] rich
 * [ ] textual
+* [ ] uv
 
 ## Scientific Libraries
 
