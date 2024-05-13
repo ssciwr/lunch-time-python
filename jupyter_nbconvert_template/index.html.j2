@@ -3,6 +3,12 @@
 {%- block html_head_css -%}
   {{ super() }}
   <style type="text/css">
+
+  /* backport https://github.com/jupyter/nbconvert/pull/2032/commits/d2557d63c06b19694fc30564050b697bf102705f */
+  main {
+  	height: 100%;
+	}
+
 	#custom-header {
 	  background-image: url("../assets/images/ssc-logo.svg") !important;
 	  background-repeat: no-repeat !important;
