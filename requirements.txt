@@ -72,7 +72,7 @@ cymem==2.0.7
     #   thinc
 cython==3.0.10
     # via -r requirements.in
-dash==2.16.1
+dash==2.17.0
     # via
     #   -r requirements.in
     #   dash-extensions
