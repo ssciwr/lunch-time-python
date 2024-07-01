@@ -410,7 +410,7 @@ pyparsing==3.0.9
     # via matplotlib
 pyrsistent==0.19.3
     # via jsonschema
-pytest==8.2.0
+pytest==8.2.2
     # via
     #   -r requirements.in
     #   ipytest
