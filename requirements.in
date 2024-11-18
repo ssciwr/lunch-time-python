@@ -28,3 +28,4 @@ dash
 jupyter-dash
 dash-extensions
 pandas
+pydantic
