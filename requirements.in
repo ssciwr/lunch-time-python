@@ -17,6 +17,7 @@ pybind11
 matplotlib
 git+https://github.com/aldanor/ipybind.git
 git+https://github.com/mgaitan/fortran_magic.git
+pickleshare  # required by fortran_magic
 ipywidgets
 mypy
 nb_mypy
@@ -28,3 +29,4 @@ dash
 jupyter-dash
 dash-extensions
 pandas
+pydantic
