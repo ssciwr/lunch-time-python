@@ -7,7 +7,9 @@
 ansi2html==1.8.0
     # via jupyter-dash
 anyio==3.6.2
-    # via jupyter-server
+    # via
+    #   httpx
+    #   jupyter-server
 argon2-cffi==21.3.0
     # via
     #   jupyter-server
@@ -21,8 +23,12 @@ astor==0.8.1
     # via nb-mypy
 asttokens==2.2.1
     # via stack-data
+async-lru==2.0.4
+    # via jupyterlab
 attrs==23.1.0
     # via jsonschema
+babel==2.16.0
+    # via jupyterlab-server
 backcall==0.2.0
     # via ipython
 beautifulsoup4==4.12.2
@@ -43,7 +49,10 @@ catalogue==2.0.8
     #   srsly
     #   thinc
 certifi==2023.5.7
-    # via requests
+    # via
+    #   httpcore
+    #   httpx
+    #   requests
 cffi==1.15.1
     # via argon2-cffi-bindings
 charset-normalizer==3.1.0
@@ -53,12 +62,16 @@ click==8.1.7
     #   -r requirements.in
     #   flask
     #   typer
+cloudpathlib==0.20.0
+    # via weasel
 comm==0.1.3
     # via
     #   ipykernel
     #   ipywidgets
 confection==0.0.4
-    # via thinc
+    # via
+    #   thinc
+    #   weasel
 contourpy==1.0.7
     # via matplotlib
 cycler==0.11.0
@@ -68,9 +81,9 @@ cymem==2.0.7
     #   preshed
     #   spacy
     #   thinc
-cython==3.0.10
+cython==3.0.11
     # via -r requirements.in
-dash==2.17.1
+dash==2.18.1
     # via
     #   -r requirements.in
     #   dash-extensions
@@ -93,7 +106,7 @@ defusedxml==0.7.1
     # via nbconvert
 editorconfig==0.12.3
     # via jsbeautifier
-en-core-web-md @ https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.4.0/en_core_web_md-3.4.0-py3-none-any.whl
+en_core_web_md @ https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.7.1/en_core_web_md-3.7.1-py3-none-any.whl
     # via -r requirements.in
 exceptiongroup==1.1.1
     # via pytest
@@ -120,9 +133,16 @@ fqdn==1.5.1
     # via jsonschema
 fsspec==2024.6.1
     # via torch
+h11==0.14.0
+    # via httpcore
+httpcore==1.0.6
+    # via httpx
+httpx==0.27.2
+    # via jupyterlab
 idna==3.4
     # via
     #   anyio
+    #   httpx
     #   jsonschema
     #   requests
 importlib-metadata==7.0.1
@@ -136,9 +156,9 @@ ipykernel==6.23.1
     #   jupyter
     #   jupyter-console
     #   jupyter-dash
+    #   jupyterlab
     #   nbclassic
     #   notebook
-    #   qtconsole
 ipytest==0.14.2
     # via -r requirements.in
 ipython==8.13.2
@@ -155,8 +175,7 @@ ipython-genutils==0.2.0
     # via
     #   nbclassic
     #   notebook
-    #   qtconsole
-ipywidgets==8.1.3
+ipywidgets==8.1.5
     # via
     #   -r requirements.in
     #   jupyter
@@ -171,6 +190,8 @@ jinja2==3.1.4
     #   -r requirements.in
     #   flask
     #   jupyter-server
+    #   jupyterlab
+    #   jupyterlab-server
     #   nbclassic
     #   nbconvert
     #   notebook
@@ -178,13 +199,16 @@ jinja2==3.1.4
     #   torch
 jsbeautifier==1.14.7
     # via dash-extensions
+json5==0.9.25
+    # via jupyterlab-server
 jsonpointer==2.3
     # via jsonschema
 jsonschema[format-nongpl]==4.17.3
     # via
     #   jupyter-events
+    #   jupyterlab-server
     #   nbformat
-jupyter==1.0.0
+jupyter==1.1.1
     # via -r requirements.in
 jupyter-client==8.2.0
     # via
@@ -194,7 +218,6 @@ jupyter-client==8.2.0
     #   nbclassic
     #   nbclient
     #   notebook
-    #   qtconsole
 jupyter-console==6.6.3
     # via jupyter
 jupyter-core==5.3.0
@@ -203,25 +226,34 @@ jupyter-core==5.3.0
     #   jupyter-client
     #   jupyter-console
     #   jupyter-server
+    #   jupyterlab
     #   nbclassic
     #   nbclient
     #   nbconvert
     #   nbformat
     #   notebook
-    #   qtconsole
 jupyter-dash==0.4.2
     # via -r requirements.in
 jupyter-events==0.6.3
     # via jupyter-server
+jupyter-lsp==2.2.5
+    # via jupyterlab
 jupyter-server==2.5.0
     # via
+    #   jupyter-lsp
+    #   jupyterlab
+    #   jupyterlab-server
     #   nbclassic
     #   notebook-shim
 jupyter-server-terminals==0.4.4
     # via jupyter-server
+jupyterlab==4.1.6
+    # via jupyter
 jupyterlab-pygments==0.2.2
     # via nbconvert
-jupyterlab-widgets==3.0.11
+jupyterlab-server==2.24.0
+    # via jupyterlab
+jupyterlab-widgets==3.0.13
     # via ipywidgets
 kiwisolver==1.4.4
     # via matplotlib
@@ -234,7 +266,7 @@ markupsafe==2.1.2
     #   jinja2
     #   nbconvert
     #   werkzeug
-matplotlib==3.9.1
+matplotlib==3.9.2
     # via -r requirements.in
 matplotlib-inline==0.1.6
     # via
@@ -251,7 +283,7 @@ murmurhash==1.0.9
     #   preshed
     #   spacy
     #   thinc
-mypy==1.11.1
+mypy==1.13.0
     # via
     #   -r requirements.in
     #   nb-mypy
@@ -290,7 +322,9 @@ notebook==6.5.4
     #   jupyter
     #   rise
 notebook-shim==0.2.3
-    # via nbclassic
+    # via
+    #   jupyterlab
+    #   nbclassic
 numba==0.60.0
     # via -r requirements.in
 numpy==1.26.4
@@ -341,27 +375,26 @@ packaging==23.1
     #   ipykernel
     #   ipytest
     #   jupyter-server
+    #   jupyterlab
+    #   jupyterlab-server
     #   matplotlib
     #   nbconvert
     #   plotly
     #   pytest
-    #   qtconsole
-    #   qtpy
     #   spacy
     #   thinc
-pandas==2.2.2
+    #   weasel
+pandas==2.2.3
     # via -r requirements.in
 pandocfilters==1.5.0
     # via nbconvert
 parso==0.8.3
     # via jedi
-pathy==0.10.1
-    # via spacy
 pexpect==4.8.0
     # via ipython
 pickleshare==0.7.5
     # via ipython
-pillow==10.4.0
+pillow==11.0.0
     # via
     #   -r requirements.in
     #   matplotlib
@@ -393,7 +426,7 @@ ptyprocess==0.7.0
     #   terminado
 pure-eval==0.2.2
     # via stack-data
-pybind11==2.13.1
+pybind11==2.13.6
     # via
     #   -r requirements.in
     #   ipybind
@@ -404,23 +437,22 @@ pydantic==1.10.8
     #   confection
     #   spacy
     #   thinc
+    #   weasel
 pygments==2.15.1
     # via
     #   ipython
     #   jupyter-console
     #   nbconvert
-    #   qtconsole
 pyparsing==3.0.9
     # via matplotlib
 pyrsistent==0.19.3
     # via jsonschema
-pytest==8.3.2
+pytest==8.3.3
     # via
     #   -r requirements.in
     #   ipytest
 python-dateutil==2.8.2
     # via
-    #   arrow
     #   jupyter-client
     #   matplotlib
     #   pandas
@@ -428,7 +460,7 @@ python-json-logger==2.0.7
     # via jupyter-events
 pytz==2023.3
     # via pandas
-pyyaml==6.0.1
+pyyaml==6.0.2
     # via
     #   -r requirements.in
     #   jupyter-events
@@ -440,17 +472,14 @@ pyzmq==25.0.2
     #   jupyter-server
     #   nbclassic
     #   notebook
-    #   qtconsole
-qtconsole==5.4.3
-    # via jupyter
-qtpy==2.3.1
-    # via qtconsole
 requests==2.32.3
     # via
     #   -r requirements.in
     #   dash
     #   jupyter-dash
+    #   jupyterlab-server
     #   spacy
+    #   weasel
 retrying==1.3.4
     # via
     #   dash
@@ -479,14 +508,14 @@ six==1.16.0
     #   retrying
     #   rfc3339-validator
 smart-open==6.3.0
-    # via
-    #   pathy
-    #   spacy
+    # via weasel
 sniffio==1.3.0
-    # via anyio
+    # via
+    #   anyio
+    #   httpx
 soupsieve==2.4.1
     # via beautifulsoup4
-spacy==3.4.4
+spacy==3.7.5
     # via
     #   -r requirements.in
     #   en-core-web-md
@@ -499,11 +528,12 @@ srsly==2.4.6
     #   confection
     #   spacy
     #   thinc
+    #   weasel
 stack-data==0.6.2
     # via ipython
-symengine==0.11.0
+symengine==0.13.0
     # via -r requirements.in
-sympy==1.13.1
+sympy==1.13.3
     # via
     #   -r requirements.in
     #   torch
@@ -515,12 +545,13 @@ terminado==0.17.1
     #   jupyter-server-terminals
     #   nbclassic
     #   notebook
-thinc==8.1.10
+thinc==8.2.5
     # via spacy
 tinycss2==1.2.1
     # via nbconvert
 tomli==2.0.1
     # via
+    #   jupyterlab
     #   mypy
     #   pytest
 torch==2.4.0
@@ -534,6 +565,7 @@ tornado==6.3.2
     #   ipykernel
     #   jupyter-client
     #   jupyter-server
+    #   jupyterlab
     #   nbclassic
     #   notebook
     #   terminado
@@ -550,21 +582,23 @@ traitlets==5.9.0
     #   jupyter-core
     #   jupyter-events
     #   jupyter-server
+    #   jupyterlab
     #   matplotlib-inline
     #   nbclassic
     #   nbclient
     #   nbconvert
     #   nbformat
     #   notebook
-    #   qtconsole
 triton==3.0.0
     # via torch
 typer==0.7.0
     # via
-    #   pathy
     #   spacy
+    #   weasel
 typing-extensions==4.12.2
     # via
+    #   async-lru
+    #   cloudpathlib
     #   dash
     #   mypy
     #   pydantic
@@ -579,8 +613,11 @@ wasabi==0.10.1
     # via
     #   spacy
     #   thinc
+    #   weasel
 wcwidth==0.2.6
     # via prompt-toolkit
+weasel==0.4.1
+    # via spacy
 webcolors==1.13
     # via jsonschema
 webencodings==0.5.1
@@ -593,7 +630,7 @@ werkzeug==2.2.3
     # via
     #   dash
     #   flask
-widgetsnbextension==4.0.11
+widgetsnbextension==4.0.13
     # via ipywidgets
 zipp==3.17.0
     # via importlib-metadata
