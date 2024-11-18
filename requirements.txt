@@ -393,6 +393,8 @@ parso==0.8.4
     # via jedi
 pexpect==4.9.0
     # via ipython
+pickleshare==0.7.5
+    # via -r requirements.in
 pillow==11.0.0
     # via
     #   -r requirements.in
