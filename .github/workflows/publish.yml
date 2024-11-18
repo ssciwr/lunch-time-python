@@ -20,14 +20,15 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.10"
-      - run: pip install -r requirements.txt
+      - run: pip install uv
+      - run: uv pip install --system -r requirements.txt
       - run: |
             for filename in $(ls lunchtime*/*.ipynb)
             do
                 if [ "$filename" != "lunchtime1/lunchtime1.ipynb" ]; then
                     # if conversion takes more than 90s, kill it and try again
                     # workaround for ipywidgets conversion occasionally hanging
-                    until timeout 90s python -m jupyter nbconvert $filename --to slides --execute --ExecutePreprocessor.kernel_name=python; do sleep 1; done
+                    until timeout 90s python -m jupyter nbconvert $filename --config jupyter_nbconvert_config.py; do sleep 1; done
                 fi
             done
       - run: mv README.md lunchtime* dist/.

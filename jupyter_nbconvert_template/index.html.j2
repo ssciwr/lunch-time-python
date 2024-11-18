@@ -1,0 +1,93 @@
+{%- extends 'reveal/index.html.j2' -%}
+
+{%- block html_head_css -%}
+  {{ super() }}
+  <style type="text/css">
+
+  /* backport https://github.com/jupyter/nbconvert/pull/2032/commits/d2557d63c06b19694fc30564050b697bf102705f */
+  main {
+	  height: 100%;
+	}
+
+	#custom-header {
+	  background-image: url("../assets/images/ssc-logo.svg") !important;
+	  background-repeat: no-repeat !important;
+	  background-size: auto 100% !important;
+	  background-position: right 10px top 0px !important;
+	  float: left;
+	  height: 50px;
+	  width: 100%;
+	  background: #333;
+	  z-index: 1;
+	  margin: 0;
+	  padding: 0;
+	  font-size: 24px;
+	  line-height: 30px;
+	  color: #fff;
+	}
+
+	#custom-header ul {
+	  margin: 0;
+	  padding: 0;
+	}
+
+	#custom-header ul li {
+	  list-style-type: none;
+	  display: inline;
+	}
+
+	#custom-header li b {
+	  display: block;
+	  float: left;
+	  color: #fff;
+	  padding: 10px 20px;
+	  border-right: 1px solid #fff;
+	}
+
+	#custom-header li a {
+	  display: block;
+	  float: left;
+	  padding: 10px 20px;
+	  color: #fff;
+	  text-decoration: none;
+	  border-right: 1px solid #fff;
+	  z-index: 1;
+	}
+
+	#custom-header li a.active {
+	  color: #000;
+	  background-color: #f9f9f9;
+	}
+
+	#custom-header li a:hover {
+	  background-color: #888;
+	}
+
+	#custom-header li a.active:hover {
+	  background-color: #f9f9f9;
+	}
+  </style>
+{%- endblock html_head_css -%}
+
+{%- block body_header -%}
+<body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
+<main>
+<div class="reveal">
+<div id="custom-header">
+<ul>
+<li><b>SSC Lunch Time Python</b></li>
+<li><a href='https://ssciwr.github.io/lunch-time-python/lunchtime2/lunchtime2.slides.html'>2</a></li>
+<li><a href='https://ssciwr.github.io/lunch-time-python/lunchtime3/lunchtime3.slides.html'>3</a></li>
+<li><a href='https://ssciwr.github.io/lunch-time-python/lunchtime4/lunchtime4.slides.html'>4</a></li>
+<li><a href='https://ssciwr.github.io/lunch-time-python/lunchtime5/lunchtime5.slides.html'>5</a></li>
+<li><a href='https://ssciwr.github.io/lunch-time-python/lunchtime6/lunchtime6.slides.html'>6</a></li>
+<li><a href='https://ssciwr.github.io/lunch-time-python/lunchtime7/lunchtime7.slides.html'>7</a></li>
+<li><a href='https://ssciwr.github.io/lunch-time-python/lunchtime8/lunchtime8.slides.html'>8</a></li>
+<li><a href='https://ssciwr.github.io/lunch-time-python/lunchtime9/lunchtime9.slides.html'>9</a></li>
+<li><a href='https://ssciwr.github.io/lunch-time-python/lunchtime10/lunchtime10.slides.html'>10</a></li>
+<li><a href='https://ssciwr.github.io/lunch-time-python/lunchtime11/lunchtime11.slides.html'>11</a></li>
+<li><a href='https://ssciwr.github.io/lunch-time-python/lunchtime12/lunchtime12.slides.html'>12</a></li>
+</ul>
+</div>
+<div class="slides">
+{%- endblock body_header -%}

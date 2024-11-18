@@ -27,6 +27,7 @@ this repository.
 * [ ] cachetools
 * [x] click
 * [x] dash
+* [ ] fastapi
 * [ ] flask
 * [ ] hypothesis
 * [x] ipywidgets
@@ -40,13 +41,14 @@ this repository.
 * [x] pillow
 * [ ] pre-commit
 * [ ] pyaml
-* [ ] pydantic
+* [x] pydantic
 * [ ] pyrsistent
 * [ ] pyscript
 * [x] pytest
 * [x] requests
 * [ ] rich
 * [ ] textual
+* [ ] uv
 
 ## Scientific Libraries
 
@@ -56,6 +58,7 @@ The risk with these is: They might be either already well-known or irrelevant to
 * [ ] dask
 * [ ] jax
 * [x] matplotlib
+* [ ] modin
 * [ ] napari
 * [ ] numpy
 * [ ] pandas
@@ -66,4 +69,5 @@ The risk with these is: They might be either already well-known or irrelevant to
 * [x] sympy
 * [ ] tensorflow
 * [ ] transformers
+* [ ] vaex
 * [ ] xarray

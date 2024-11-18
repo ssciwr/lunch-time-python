@@ -9,14 +9,14 @@ repos:
 
   # Run Black - the uncompromising Python code formatter
   - repo: https://github.com/psf/black
-    rev: 24.4.0
+    rev: 24.10.0
     hooks:
       - id: black
       - id: black-jupyter
 
   # Add some general purpose useful hooks
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.6.0
+    rev: v5.0.0
     hooks:
       # Make sure that contained YAML files are well-formed
       - id: check-yaml
