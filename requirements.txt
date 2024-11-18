@@ -12,6 +12,8 @@ anyio==4.6.2.post1
     # via
     #   httpx
     #   jupyter-server
+    #   starlette
+    #   watchfiles
 argon2-cffi==23.1.0
     # via jupyter-server
 argon2-cffi-bindings==21.2.0
@@ -63,6 +65,7 @@ click==8.1.7
     #   -r requirements.in
     #   flask
     #   typer
+    #   uvicorn
 cloudpathlib==0.20.0
     # via weasel
 comm==0.2.2
@@ -105,8 +108,12 @@ decorator==5.1.1
     # via ipython
 defusedxml==0.7.1
     # via nbconvert
+dnspython==2.7.0
+    # via email-validator
 editorconfig==0.12.4
     # via jsbeautifier
+email-validator==2.2.0
+    # via fastapi
 en-core-web-md @ https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.7.1/en_core_web_md-3.7.1-py3-none-any.whl
     # via -r requirements.in
 exceptiongroup==1.2.2
@@ -116,6 +123,10 @@ exceptiongroup==1.2.2
     #   pytest
 executing==2.1.0
     # via stack-data
+fastapi[standard]==0.115.5
+    # via -r requirements.in
+fastapi-cli[standard]==0.0.5
+    # via fastapi
 fastjsonschema==2.20.0
     # via nbformat
 filelock==3.16.1
@@ -137,15 +148,24 @@ fqdn==1.5.1
     # via jsonschema
 fsspec==2024.10.0
     # via torch
+greenlet==3.1.1
+    # via sqlalchemy
 h11==0.14.0
-    # via httpcore
+    # via
+    #   httpcore
+    #   uvicorn
 httpcore==1.0.7
     # via httpx
+httptools==0.6.4
+    # via uvicorn
 httpx==0.27.2
-    # via jupyterlab
+    # via
+    #   fastapi
+    #   jupyterlab
 idna==3.10
     # via
     #   anyio
+    #   email-validator
     #   httpx
     #   jsonschema
     #   requests
@@ -186,6 +206,7 @@ jedi==0.19.2
 jinja2==3.1.4
     # via
     #   -r requirements.in
+    #   fastapi
     #   flask
     #   jupyter-server
     #   jupyterlab
@@ -435,7 +456,9 @@ pydantic==2.9.2
     #   -r requirements.in
     #   confection
     #   dash-extensions
+    #   fastapi
     #   spacy
+    #   sqlmodel
     #   thinc
     #   weasel
 pydantic-core==2.23.4
@@ -458,14 +481,19 @@ python-dateutil==2.9.0.post0
     #   jupyter-client
     #   matplotlib
     #   pandas
+python-dotenv==1.0.1
+    # via uvicorn
 python-json-logger==2.0.7
     # via jupyter-events
+python-multipart==0.0.17
+    # via fastapi
 pytz==2024.2
     # via pandas
 pyyaml==6.0.2
     # via
     #   -r requirements.in
     #   jupyter-events
+    #   uvicorn
 pyzmq==26.2.0
     # via
     #   ipykernel
@@ -534,6 +562,10 @@ spacy-legacy==3.0.12
     # via spacy
 spacy-loggers==1.0.5
     # via spacy
+sqlalchemy==2.0.36
+    # via sqlmodel
+sqlmodel==0.0.22
+    # via -r requirements.in
 srsly==2.4.8
     # via
     #   confection
@@ -542,6 +574,8 @@ srsly==2.4.8
     #   weasel
 stack-data==0.6.3
     # via ipython
+starlette==0.41.2
+    # via fastapi
 symengine==0.13.0
     # via -r requirements.in
 sympy==1.13.1
@@ -599,6 +633,7 @@ triton==3.1.0
     # via torch
 typer==0.13.0
     # via
+    #   fastapi-cli
     #   spacy
     #   weasel
 types-python-dateutil==2.9.0.20241003
@@ -609,24 +644,35 @@ typing-extensions==4.12.2
     #   async-lru
     #   cloudpathlib
     #   dash
+    #   fastapi
     #   ipython
     #   mypy
     #   pydantic
     #   pydantic-core
     #   rich
+    #   sqlalchemy
     #   torch
     #   typer
+    #   uvicorn
 tzdata==2024.2
     # via pandas
 uri-template==1.3.0
     # via jsonschema
 urllib3==2.2.3
     # via requests
+uvicorn[standard]==0.32.0
+    # via
+    #   fastapi
+    #   fastapi-cli
+uvloop==0.21.0
+    # via uvicorn
 wasabi==1.1.3
     # via
     #   spacy
     #   thinc
     #   weasel
+watchfiles==0.24.0
+    # via uvicorn
 wcwidth==0.2.13
     # via prompt-toolkit
 weasel==0.4.1
@@ -639,6 +685,8 @@ webencodings==0.5.1
     #   tinycss2
 websocket-client==1.8.0
     # via jupyter-server
+websockets==14.1
+    # via uvicorn
 werkzeug==3.0.6
     # via
     #   dash

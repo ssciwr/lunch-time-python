@@ -30,3 +30,6 @@ jupyter-dash
 dash-extensions
 pandas
 pydantic
+fastapi[standard]
+sqlmodel
+argon2-cffi
