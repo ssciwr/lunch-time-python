@@ -13,11 +13,11 @@ Python is a very popular - maybe even *the* most popular - programming language 
 
 ## Sessions
 
-Next installment of Lunch Time Python: Session 14, Dec 29th 2024, 11:30pm
+Next installment of Lunch Time Python: Session 14, Nov 29th 2024, 11:30am
 
 Here is a list of past sessions which you can reproduce in a Cloud environment by clicking the [Binder](https://mybinder.org) or [Colab](https://colab.research.google.com/) (requires a Google account) links below:
 
-* FastAPI: [slides](https://ssciwr.github.io/lunch-time-python/lunchtime14/lunchtime14.slides.html), [binder](https://mybinder.org/v2/gh/ssciwr/lunch-time-python.git/HEAD?labpath=lunchtime14%2Flunchtime14.ipynb), [colab](https://colab.research.google.com/github/ssciwr/lunch-time-python/blob/main/lunchtime14/lunchtime14.ipynb), [notebook](https://ssciwr.github.io/lunch-time-python/lunchtime14/lunchtime14.ipynb) (Session 14, Dec 29th 2024, 11:30pm)
+* FastAPI: [slides](https://ssciwr.github.io/lunch-time-python/lunchtime14/lunchtime14.slides.html), [binder](https://mybinder.org/v2/gh/ssciwr/lunch-time-python.git/HEAD?labpath=lunchtime14%2Flunchtime14.ipynb), [colab](https://colab.research.google.com/github/ssciwr/lunch-time-python/blob/main/lunchtime14/lunchtime14.ipynb), [notebook](https://ssciwr.github.io/lunch-time-python/lunchtime14/lunchtime14.ipynb) (Session 14, Nov 29th 2024, 11:30am)
 
 * pydantic: [slides](https://ssciwr.github.io/lunch-time-python/lunchtime13/lunchtime13.slides.html), [binder](https://mybinder.org/v2/gh/ssciwr/lunch-time-python.git/HEAD?labpath=lunchtime13%2Flunchtime13.ipynb), [colab](https://colab.research.google.com/github/ssciwr/lunch-time-python/blob/main/lunchtime13/lunchtime13.ipynb), [notebook](https://ssciwr.github.io/lunch-time-python/lunchtime13/lunchtime13.ipynb) (Session 13, April 23th 2024, 12:00pm)
 
