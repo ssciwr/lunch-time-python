@@ -15,7 +15,9 @@ anyio==4.6.2.post1
     #   starlette
     #   watchfiles
 argon2-cffi==23.1.0
-    # via jupyter-server
+    # via
+    #   -r requirements.in
+    #   jupyter-server
 argon2-cffi-bindings==21.2.0
     # via argon2-cffi
 arrow==1.3.0
@@ -94,13 +96,13 @@ dash==2.18.2
     #   jupyter-dash
 dash-core-components==2.0.0
     # via dash
-dash-extensions==1.0.18
+dash-extensions==1.0.19
     # via -r requirements.in
 dash-html-components==2.0.0
     # via dash
 dash-table==5.0.0
     # via dash
-dataclass-wizard==0.22.3
+dataclass-wizard==0.30.1
     # via dash-extensions
 debugpy==1.8.8
     # via ipykernel
@@ -291,7 +293,7 @@ markupsafe==3.0.2
     #   jinja2
     #   nbconvert
     #   werkzeug
-matplotlib==3.9.2
+matplotlib==3.9.3
     # via -r requirements.in
 matplotlib-inline==0.1.7
     # via
@@ -451,7 +453,7 @@ pybind11==2.13.6
     #   ipybind
 pycparser==2.22
     # via cffi
-pydantic==2.9.2
+pydantic==2.10.2
     # via
     #   -r requirements.in
     #   confection
@@ -461,7 +463,7 @@ pydantic==2.9.2
     #   sqlmodel
     #   thinc
     #   weasel
-pydantic-core==2.23.4
+pydantic-core==2.27.1
     # via pydantic
 pygments==2.18.0
     # via
@@ -533,8 +535,6 @@ rpds-py==0.21.0
     # via
     #   jsonschema
     #   referencing
-ruff==0.4.10
-    # via dash-extensions
 send2trash==1.8.3
     # via jupyter-server
 shellingham==1.5.4
@@ -644,6 +644,7 @@ typing-extensions==4.12.2
     #   async-lru
     #   cloudpathlib
     #   dash
+    #   dataclass-wizard
     #   fastapi
     #   ipython
     #   mypy
