@@ -62,7 +62,7 @@ cffi==1.17.1
     # via argon2-cffi-bindings
 charset-normalizer==3.4.0
     # via requests
-click==8.1.7
+click==8.1.8
     # via
     #   -r requirements.in
     #   flask
@@ -125,7 +125,7 @@ exceptiongroup==1.2.2
     #   pytest
 executing==2.1.0
     # via stack-data
-fastapi[standard]==0.115.5
+fastapi[standard]==0.115.6
     # via -r requirements.in
 fastapi-cli[standard]==0.0.5
     # via fastapi
@@ -205,7 +205,7 @@ itsdangerous==2.2.0
     # via flask
 jedi==0.19.2
     # via ipython
-jinja2==3.1.4
+jinja2==3.1.5
     # via
     #   -r requirements.in
     #   fastapi
@@ -293,7 +293,7 @@ markupsafe==3.0.2
     #   jinja2
     #   nbconvert
     #   werkzeug
-matplotlib==3.9.3
+matplotlib==3.10.0
     # via -r requirements.in
 matplotlib-inline==0.1.7
     # via
@@ -312,7 +312,7 @@ murmurhash==1.0.10
     #   preshed
     #   spacy
     #   thinc
-mypy==1.13.0
+mypy==1.14.1
     # via
     #   -r requirements.in
     #   nb-mypy
@@ -453,7 +453,7 @@ pybind11==2.13.6
     #   ipybind
 pycparser==2.22
     # via cffi
-pydantic==2.10.2
+pydantic==2.10.4
     # via
     #   -r requirements.in
     #   confection
@@ -463,7 +463,7 @@ pydantic==2.10.2
     #   sqlmodel
     #   thinc
     #   weasel
-pydantic-core==2.27.1
+pydantic-core==2.27.2
     # via pydantic
 pygments==2.18.0
     # via
@@ -473,7 +473,7 @@ pygments==2.18.0
     #   rich
 pyparsing==3.2.0
     # via matplotlib
-pytest==8.3.3
+pytest==8.3.4
     # via
     #   -r requirements.in
     #   ipytest
