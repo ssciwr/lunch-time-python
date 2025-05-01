@@ -87,21 +87,15 @@ cymem==2.0.8
     #   preshed
     #   spacy
     #   thinc
-cython==3.0.11
+cython==3.0.12
     # via -r requirements.in
-dash==2.18.2
+dash==3.0.4
     # via
     #   -r requirements.in
     #   dash-extensions
     #   jupyter-dash
-dash-core-components==2.0.0
-    # via dash
-dash-extensions==1.0.19
+dash-extensions==1.0.20
     # via -r requirements.in
-dash-html-components==2.0.0
-    # via dash
-dash-table==5.0.0
-    # via dash
 dataclass-wizard==0.30.1
     # via dash-extensions
 debugpy==1.8.8
@@ -125,7 +119,7 @@ exceptiongroup==1.2.2
     #   pytest
 executing==2.1.0
     # via stack-data
-fastapi[standard]==0.115.6
+fastapi[standard]==0.115.12
     # via -r requirements.in
 fastapi-cli[standard]==0.0.5
     # via fastapi
@@ -195,7 +189,7 @@ ipython==8.29.0
     #   jupyter-console
     #   jupyter-dash
     #   nb-mypy
-ipywidgets==8.1.5
+ipywidgets==8.1.6
     # via
     #   -r requirements.in
     #   jupyter
@@ -205,7 +199,7 @@ itsdangerous==2.2.0
     # via flask
 jedi==0.19.2
     # via ipython
-jinja2==3.1.5
+jinja2==3.1.6
     # via
     #   -r requirements.in
     #   fastapi
@@ -274,7 +268,7 @@ jupyterlab-server==2.27.3
     # via
     #   jupyterlab
     #   notebook
-jupyterlab-widgets==3.0.13
+jupyterlab-widgets==3.0.14
     # via ipywidgets
 kiwisolver==1.4.7
     # via matplotlib
@@ -282,7 +276,7 @@ langcodes==3.4.1
     # via spacy
 language-data==1.2.0
     # via langcodes
-llvmlite==0.43.0
+llvmlite==0.44.0
     # via numba
 marisa-trie==1.2.1
     # via language-data
@@ -293,7 +287,7 @@ markupsafe==3.0.2
     #   jinja2
     #   nbconvert
     #   werkzeug
-matplotlib==3.10.0
+matplotlib==3.10.1
     # via -r requirements.in
 matplotlib-inline==0.1.7
     # via
@@ -312,7 +306,7 @@ murmurhash==1.0.10
     #   preshed
     #   spacy
     #   thinc
-mypy==1.14.1
+mypy==1.15.0
     # via
     #   -r requirements.in
     #   nb-mypy
@@ -346,7 +340,7 @@ notebook-shim==0.2.4
     # via
     #   jupyterlab
     #   notebook
-numba==0.60.0
+numba==0.61.2
     # via -r requirements.in
 numpy==1.26.4
     # via
@@ -418,7 +412,7 @@ pexpect==4.9.0
     # via ipython
 pickleshare==0.7.5
     # via -r requirements.in
-pillow==11.0.0
+pillow==11.2.1
     # via
     #   -r requirements.in
     #   matplotlib
@@ -453,7 +447,7 @@ pybind11==2.13.6
     #   ipybind
 pycparser==2.22
     # via cffi
-pydantic==2.10.4
+pydantic==2.11.4
     # via
     #   -r requirements.in
     #   confection
@@ -463,7 +457,7 @@ pydantic==2.10.4
     #   sqlmodel
     #   thinc
     #   weasel
-pydantic-core==2.27.2
+pydantic-core==2.33.2
     # via pydantic
 pygments==2.18.0
     # via
@@ -473,7 +467,7 @@ pygments==2.18.0
     #   rich
 pyparsing==3.2.0
     # via matplotlib
-pytest==8.3.4
+pytest==8.3.5
     # via
     #   -r requirements.in
     #   ipytest
@@ -487,7 +481,7 @@ python-dotenv==1.0.1
     # via uvicorn
 python-json-logger==2.0.7
     # via jupyter-events
-python-multipart==0.0.17
+python-multipart==0.0.20
     # via fastapi
 pytz==2024.2
     # via pandas
@@ -564,7 +558,7 @@ spacy-loggers==1.0.5
     # via spacy
 sqlalchemy==2.0.36
     # via sqlmodel
-sqlmodel==0.0.22
+sqlmodel==0.0.24
     # via -r requirements.in
 srsly==2.4.8
     # via
@@ -576,7 +570,7 @@ stack-data==0.6.3
     # via ipython
 starlette==0.41.2
     # via fastapi
-symengine==0.13.0
+symengine==0.14.1
     # via -r requirements.in
 sympy==1.13.1
     # via
@@ -654,7 +648,10 @@ typing-extensions==4.12.2
     #   sqlalchemy
     #   torch
     #   typer
+    #   typing-inspection
     #   uvicorn
+typing-inspection==0.4.0
+    # via pydantic
 tzdata==2024.2
     # via pandas
 uri-template==1.3.0
@@ -692,7 +689,7 @@ werkzeug==3.0.6
     # via
     #   dash
     #   flask
-widgetsnbextension==4.0.13
+widgetsnbextension==4.0.14
     # via ipywidgets
 wrapt==1.16.0
     # via smart-open
